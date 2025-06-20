@@ -1,6 +1,6 @@
 // Floyd's Triangle 8th
 import java.util.Scanner;
-public class NestedLoop {
+public class NestedLoop8 {
      public static void main (String args []) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter How many Star you wants to print ");

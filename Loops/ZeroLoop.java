@@ -1,3 +1,4 @@
+// like Machine Language
 import java.util.*;
 public class ZeroLoop {
     public static void main(String[] args) {
