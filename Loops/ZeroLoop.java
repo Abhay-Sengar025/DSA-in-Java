@@ -25,6 +25,7 @@ public class ZeroLoop {
                 System.out.println("This is also Good");
             } else {System.out.println("This is Good as well"); }
         }
+    }
 
     }
-}
+
