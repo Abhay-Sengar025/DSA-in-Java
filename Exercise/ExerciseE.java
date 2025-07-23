@@ -2,17 +2,18 @@
 import java.util.Scanner;
 
 public class ExerciseE {
-    public static int AgeLimit (int Age) {
-
+    public static void AgeLimit (int Age) {
         if ( Age >= 18) {
-            return"Eligible for Voting";
-        } else { System.out.println("Not Eligible for Voting"); }
-        return Age;
+            System.out.println("Eligible for Voting");
+            return;
+        } 
+        else { System.out.println("Not Eligible for Voting"); return;}
     }
     public static void main (String args[]) {
         Scanner sc = new Scanner (System.in);
+        System.out.println("Enter your age :-");
         int Age = sc.nextInt();
 
-        System.out.println(AgeLimit(Age));
+        AgeLimit(Age);
     }
 }
