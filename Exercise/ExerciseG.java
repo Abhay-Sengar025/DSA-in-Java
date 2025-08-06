@@ -5,6 +5,6 @@ public class ExerciseG {
     System.out.println("Please Enter Number of Enteries you wants to enter :- ");
     int num = sc.nextInt();
     System.out.println("Enter All Number :- ");  
-    for (int i )
+    for (int i );
     }
 }
